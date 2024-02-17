@@ -2,7 +2,7 @@
   "name": "pre-homeworks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adil2321.github.io/HomeWork-Monday",
+  "homepage":"https://adil2321.github.io/HomeWork-Monday/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
