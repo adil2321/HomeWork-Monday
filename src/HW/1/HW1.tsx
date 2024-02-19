@@ -23,19 +23,14 @@ export const HW1 = () => {
 		{id: 6, name: 'James', age: 18, address: {street: '987 Pine Rd', city: 'Dallas'}},
 		{id: 7, name: 'Jennifer', age: 21, address: {street: '654 Birch Ct', city: 'Seattle'}},
 		{id: 8, name: 'Robert', age: 4, address: {street: '876 Spruce Way', city: 'San Francisco'}},
-		{
-			id: 9,
-			name: 'Jessica',
-			age: 12,
-			address: {street: '543 Willow Dr', city: 'San Francisco'},
-		},
+		{id: 9, name: 'Jessica', age: 12, address: {street: '543 Willow Dr', city: 'San Francisco'},},
 		{id: 10, name: 'Emily', age: 55, address: {street: '765 Aspen Blvd', city: 'Los Angeles'}},
 	];
 
 	return (
 		<div id={'hw01'}>
-			<h3>1111</h3> 767-9-00
-			{/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
+
+			<UserList users={users}  />
 		</div>
 	);
 };
